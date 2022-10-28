@@ -1,0 +1,84 @@
+/*Värit. tausta:#55423d teksti:#fffffe napit:#ffc0ad nappien teksti:#271c19*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+}
+.sisempi{
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #55423d;
+}
+.logo{
+    font-family: 'Ubuntu',sans-serif;
+    height: 100%;
+    display: table;
+    float: left;
+    padding-left: 35px;
+}
+.logo h1{
+    color: #fffffe;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+}
+.logo h1 span{
+    font-weight: 500;
+}
+.navi{
+    float: right;
+    height: 100%;
+    padding-right: 35px;
+}
+.navi a{
+    height: 100%;
+    display: table;
+    float:left;
+    padding: 0px 20px;
+}
+.navi a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #fffffe;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+}
+body{
+    background-color: #55423d;
+    color: #fffffe;
+}
+.body{
+    width: 1200px;
+    height: 1200px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+    background-image: "/assets/pexels-photo-1581554.jpeg";
+}
+.keski{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.body h1{
+    text-align: center;
+}
+.body p{
+    text-align: center;
+    display: block;
+}
+.button{
+    background-color: #ffc0ad;
+    color: #271c19;
+}
