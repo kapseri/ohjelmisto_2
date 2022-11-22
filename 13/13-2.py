@@ -1,6 +1,5 @@
 from flask import Flask, request
 import mysql.connector
-import mysql.connector
 
 yhteys = mysql.connector.connect(
          host='127.0.0.1',
